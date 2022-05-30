@@ -12,7 +12,5 @@ const out2 = document.querySelector('.out2');
 const btn = document.querySelector('.btn');
 
 btn.addEventListener('click', () => {
-    let text2 = inp2.value;
-
-    out2.textContent = text2;
+    out2.textContent = inp2.value;
 });
